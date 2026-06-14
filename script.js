@@ -1,23 +1,8 @@
-const questions = [
-    {
-        id: 1,
-        category: "Struktur Sel",
-        q: "Perhatikan gambar sel tumbuhan di atas. Organel berbentuk lonjong berwarna merah dengan lipatan-lipatan di dalamnya serta organel bulat besar berwarna ungu berturut-turut merupakan...",
-        gambar: "satu.jpg", 
-        o: [
-            "Kloroplas dan Vakuola",
-            "Mitokondria dan Nukleus (Inti Sel)",
-            "Badan Golgi dan Ribosom",
-            "Retikulum Endoplasma dan Lisosom"
-        ],
-        a: 1,
-        p: "Organel berwarna merah di pojok kiri atas dan kanan tengah adalah Mitokondria yang berfungsi menghasilkan energi (ATP). Sedangkan bulatan besar ungu di kanan atas adalah Nukleus (inti sel) yang mengontrol seluruh aktivitas sel tumbuhan."
-    },
     {
         id: 2,
         category: "Struktur Sel",
         q: "Berdasarkan gambar struktur sel hewan di atas, organel yang ditunjuk oleh nomor 2 dan nomor 8 secara berurutan memiliki fungsi untuk...",
-        gambar: "dua.jpg", 
+        gambar: "dua.png", // <--- SUDAH DIGANTI JADI PNG
         o: [
             "Sintesis protein dan respirasi seluler menghasilkan energi",
             "Pencernaan intraseluler dan sekresi zat keluar sel",
@@ -25,15 +10,17 @@ const questions = [
             "Sintesis lipid dan pembentukan sel darah merah"
         ],
         a: 0,
-        p: "Nomor 2 menunjuk ke Retikulum Endoplasma Kasar (yang ditempeli ribosom bintik-bintik cokelat) untuk sintesis protein. Nomor 8 menunjuk ke Mitokondria (bentuk oval dengan gelombang di dalam) yang berfungsi sebagai respirasi seluler pembentuk energi."
+        p: "Nomor 2 menunjuk ke Retikulum Endoplasma Kasar untuk sintesis protein. Nomor 8 menunjuk ke Mitokondria yang berfungsi sebagai respirasi seluler pembentuk energi."
     },
     {
         id: 3,
         category: "Sistem Regulasi",
         q: "Bagian dari struktur sel saraf (neuron) yang berfungsi untuk menerima impuls atau rangsangan dari reseptor maupun sel saraf lain ditunjukkan oleh nomor...",
-        gambar: "tiga.jpg", 
+        gambar: "tiga.png", // <--- SUDAH DIGANTI JADI PNG
         o: ["Nomor 1 (Dendrit)", "Nomor 2 (Badan Sel)", "Nomor 5 (Nukleus)", "Nomor 7 (Sel Schwann)"],
         a: 0,
+        p: "Bagian yang bertugas menerima rangsangan pertama kali adalah Dendrit, ditunjukkan oleh percabangan pendek nomor 1. Impuls kemudian diteruskan ke nomor 2 (Badan Sel) lalu menuju nomor 6 (Akson)."
+    },
         p: "Bagian yang bertugas menerima rangsangan pertama kali adalah Dendrit, ditunjukkan oleh percabangan pendek nomor 1. Impuls kemudian diteruskan ke nomor 2 (Badan Sel) lalu menuju nomor 6 (Akson)."
     },
     {
